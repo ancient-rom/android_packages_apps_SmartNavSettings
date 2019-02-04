@@ -31,7 +31,7 @@ import android.support.v7.preference.ListPreference;
 import android.provider.Settings;
 
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
-import com.superior.settings.preferences.CustomSeekBarPreference;
+import com.ancient.settings.preferences.CustomSeekBarPreference;
 
 public class PulseSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
@@ -276,6 +276,6 @@ public class PulseSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.SUPERIOR;
+        return MetricsProto.MetricsEvent.ANCIENT;
     }
 }
